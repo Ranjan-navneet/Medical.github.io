@@ -1,0 +1,466 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: montsarrat;
+    border: none;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #010101;
+    transition: 0.3s ease;
+    text-decoration: none;
+    margin: 1px;
+    font-family: montserrat;
+}
+
+#navbar li a:hover {
+    color: red;
+    font-size: large;
+}
+
+#main button {
+    background-color: #5cd65c;
+    color: white;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+body background {
+    width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+header {
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 2rem;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600px;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+
+.empty {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+}
+
+p {
+    color: #010101;
+}
+
+.content {
+    display: flex;
+    min-height: 110vh;
+}
+
+.content section {
+    margin-top: 8vh;
+    margin-left: 20vh;
+}
+
+.content-form {
+    margin-top: 7rem;
+}
+
+section i {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(9, 247, 255, 0.8);
+    color: black;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.form .contact-form input {
+    width: 30rem;
+    background-color: transparent;
+    border: 0px;
+    border: transparent;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+}
+
+.form .contact-form input~span {
+    position: absolute;
+    left: 20px;
+    transition: 0.9s ease-in-out;
+    margin-top: 10px;
+}
+
+.form .contact-form input:focus~span {
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+
+.form .contact-form textarea {
+    width: 30rem;
+    border: 0px;
+    background-color: transparent;
+    margin: 20px;
+    font-size: 17px;
+    border-bottom: 2px solid white;
+}
+
+.form .contact-form textarea~span {
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+    transition: 0.9s ease-in-out;
+}
+
+.form .contact-form textarea:focus~span {
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+
+.form .contact-form input[type=submit] {
+    background-color: rgb(38, 239, 253);
+    border: 2px solid rgb(38, 239, 253);
+    font-size: 18px;
+    width: 50%;
+    height: 40px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-repeat: repeat-y;
+        overflow: auto;
+    }
+    header {
+        position: absolute;
+        left: 0;
+        top: 20%;
+        width: 100%;
+    }
+    .empty {
+        height: 210vh;
+    }
+    .form {
+        position: absolute;
+        top: 100vh;
+        margin-left: 10%;
+    }
+    .content-form {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0;
+        margin-top: 53vh;
+        margin-left: 10vh;
+    }
+    .content section {
+        margin-top: 0vh;
+        margin-left: 0vh;
+    }
+    .media {
+        position: absolute;
+        top: 190vh;
+        right: 30px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    line-height: 64px;
+    color: rgb(1, 1, 1);
+}
+
+h3 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #fa0303;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    font-family: montserrat;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+form {
+    font-size: large;
+    font-family: montsarrat;
+    margin-right: 20px;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: indianred;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0px;
+}
+
+button.white {
+    font-size: 13px;
+    font-weight: 600px;
+    padding: 11px 18px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+
+
+/*header start*/
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px;
+    background: rgb(9, 252, 248);
+    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.10);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #010101;
+    transition: 0.3s ease;
+    text-decoration: none;
+    margin: 2px;
+    font-family: montserrat;
+}
+
+#navbar li a:hover {
+    color: red;
+    font-size: large;
+}
+
+
+/*homepage yaha se*/
+
+#main {
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0%;
+    background-size: cover;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#main h4 {
+    color: black;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+#main p {
+    color: blueviolet;
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+#main h1 {
+    color: white;
+}
+
+#main button {
+    background-color: #5cd65c;
+    color: white;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(9, 252, 248);
+    color: #010101;
+    text-align: center;
+    font-size: medium;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h4 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    font-family: montsarrat;
+}
+
+body background {
+    backdrop-filter: blur(5px);
+}
+
+
+/* Full-width inputs */
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=tel],
+input[type=password] {
+    width: 80%;
+    padding: 10px 15px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #5cd65c;
+    color: white;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+
+/* Add a hover effect for buttons */
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Add padding to containers */
+
+
+/* The "Forgot password" text */
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+
+.media {
+    position: absolute;
+    top: 190vh;
+    right: 30px;
+}
