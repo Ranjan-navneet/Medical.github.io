@@ -230,9 +230,10 @@ h1 {
 }
 
 h3 {
+    font-family: montserrat;
     font-size: 50px;
     line-height: 64px;
-    color: #fa0303;
+    color: #f00202;
 }
 
 h2 {
@@ -260,8 +261,9 @@ h6 {
 }
 
 p {
+    font-family: montserrat;
     font-size: 16px;
-    color: indianred;
+    color: rgb(4, 4, 6);
     margin: 15px 0 20px 0;
 }
 
@@ -293,7 +295,7 @@ button.white {
     align-items: center;
     justify-content: space-between;
     padding: 26px;
-    background: rgb(9, 252, 248);
+    
     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.10);
     z-index: 999;
     position: sticky;
@@ -378,7 +380,7 @@ button.white {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(9, 252, 248);
+    background-color: #00d9ff;
     color: #010101;
     text-align: center;
     font-size: medium;

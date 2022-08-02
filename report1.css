@@ -92,7 +92,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 26px;
-    background: rgb(9, 252, 248);
+    background: rgb#1eacc5;
     box-shadow: 0 5px 15px rgb(0, 0, 0, 0.10);
     z-index: 999;
     position: sticky;
@@ -159,7 +159,7 @@ body {
 }
 
 #main button {
-    background-color: #5cd65c;
+    background-color: #00d9ff;
     color: white;
     border: 0;
     padding: 14px 80px 14px 65px;
@@ -174,7 +174,7 @@ footer {
     text-align: center;
     font-size: medium;
     color: #010101;
-    background-color: rgb(9, 252, 248);
+    background-color: #00d9ff;
     padding: 2px;
 }
 
